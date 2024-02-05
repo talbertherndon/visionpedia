@@ -84,7 +84,8 @@ export default function Home() {
                                     Discover what vision pro can do for you.
                                 </h1>
                                 <p className="mt-6 text-lg leading-8 text-gray-50">
-                                    We&lsquo;re here to help you leverage Vision Pro and find the best Spatial reality tools.
+                                    {/* We&lsquo;re here to help you leverage Vision Pro and find the best Spatial reality tools. */}
+                                    Explore the possibilities of spatial computing from your web browser!
                                 </p>
                                 <div className="mt-2 flex flex-row">
                                     <input
@@ -96,6 +97,7 @@ export default function Home() {
                                         className="pl-3 block w-full bg-opacity-15 rounded-md border-0 py-1.5 text-slate-50 shadow-sm bg-slate-50 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blacksm:text-sm sm:leading-6"
                                         placeholder="Search for a tool or use case..."
                                     />
+                                    <br/>
                                     <button className=" hover:text-[#9d9d9d] hover:backdrop-blur-lg text-slate-50 shadow-lg overflow-hidden rounded-md border  px-4 ml-2 backdrop-blur-md" onClick={searchApps}>
                                         Search
                                     </button>
@@ -125,8 +127,6 @@ export default function Home() {
                         <motion.div onClick={nextPage} whileTap={{ scale: 0.9 }} className="w-2 self-center cursor-pointer bg-white mx-5 p-2 rounded-lg bg-opacity-20 hover:bg-opacity-40 backdrop-blur-md shadow-lg h-20">
                         </motion.div>
                     </motion.div>
-
-
                 </div>
             </div>
         </div>
